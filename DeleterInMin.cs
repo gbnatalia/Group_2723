@@ -1,4 +1,6 @@
-﻿int[,] array = new int[new Random().Next(3, 6), new Random().Next(4, 7)];
+/*Задача 59: Из двумерного массива целых чисел удалить строку и столбец, на пересечении которых расположен наименьший элемент.*/
+
+int[,] array = new int[new Random().Next(3, 6), new Random().Next(4, 7)];
 
 for (int i = 0; i < array.GetLength(0); i++)
     for (int j = 0; j < array.GetLength(1); j++)
